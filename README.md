@@ -13,6 +13,24 @@
   <img src="https://img.shields.io/badge/Gemini-AI-orange?style=for-the-badge&logo=google" />
 </p>
 
+# ⚡ Unique Selling Points
+
+<div align="center">
+
+| 🚀 Feature | 💡 Description |
+|---|---|
+| Automatic Poster Generation | AI-powered instant event poster creation system |
+| QR-Based Verification | Secure QR verification for tickets & certificates |
+| Real-Time QR Check-In | Live attendee counter updates instantly |
+| Gemini AI Matching | AI-powered sponsor-event compatibility |
+| Automated Certificates | Zero-touch PDF generation system |
+| Volunteer Gamification | Reputation scores, badges & leaderboards |
+| Multi-Role Accounts | One account with multiple role switching |
+| WebSocket Sync | Real-time Kanban & announcements |
+| HMAC Security | Cryptographically signed QR tokens |
+| Production Architecture | Scalable modern SaaS infrastructure |
+
+</div>
 ### ⚡ Four Roles • One Platform • Zero Spreadsheets
 
 A production-ready AI-powered event management SaaS platform built for hackathons, workshops, tech fests, seminars, and college events.
