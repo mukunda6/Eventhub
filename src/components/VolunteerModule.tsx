@@ -82,7 +82,7 @@ export default function VolunteerModule({ currentUser, onRefreshUser, showToast 
                 <div className="flex items-center gap-2 mb-1">
                   <span
                     className="text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-full"
-                    style={{ background: `${PRIORITY_COLORS[task.priority]}15`, color: PRIORITY_COLORS[task.priority], border: `1px solid ${PRIORITY_COLORS[task.priority]}25` }}
+                    style={{ background: `${PRIORITY_COLORS[task.priority ?? "low"]}15`, color: PRIORITY_COLORS[task.priority ?? "low"], border: `1px solid ${PRIORITY_COLORS[task.priority ?? "low"]}25` }}
                   >
                     {task.priority}
                   </span>
