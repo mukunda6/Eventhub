@@ -1,11 +1,476 @@
-# EventTechUnavailable 🚀
-> **Ecosystem Management Platform for College Hackathons, Workshops, & Events**
+<div align="center">
 
-EventTechUnavailable is a production-grade, multi-sided SaaS platform that replaces 10+ disconnected tools within the university event ecosystem with a unified, real-time command center.
+# 🚀 EventTech Platform
 
-The application is written in **TypeScript** using a full-stack **Express + React (Vite)** architecture, with **Tailwind CSS** styling and core intelligence powered by **Gemini 3.5 Flash** models via the official `@google/genai` Node.js SDK.
+### The Intelligent Event Ecosystem for Modern College Events
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/Vite-5-purple?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Socket.io-RealTime-black?style=for-the-badge&logo=socketdotio" />
+  <img src="https://img.shields.io/badge/Gemini-AI-orange?style=for-the-badge&logo=google" />
+</p>
+
+### ⚡ Four Roles • One Platform • Zero Spreadsheets
+
+A production-ready AI-powered event management SaaS platform built for hackathons, workshops, tech fests, seminars, and college events.
+
+</div>
 
 ---
+
+# 🌟 Overview
+
+Managing college events today means juggling:
+
+- Google Forms 📄
+- WhatsApp Groups 💬
+- Excel Sheets 📊
+- Manual Certificates 🏅
+- Cold Sponsor Outreach 📧
+
+EventTech eliminates fragmented workflows and replaces them with one unified intelligent ecosystem powered by:
+
+✅ AI Automation  
+✅ Real-Time Systems  
+✅ QR Infrastructure  
+✅ Analytics Dashboards  
+✅ Multi-Role Architecture  
+✅ Live Collaboration  
+
+---
+
+# 🎯 Core Modules
+
+## 🧑‍💼 Organizer Dashboard
+Powerful admin ecosystem for managing entire events.
+
+### Features
+- Multi-Step Event Creation Wizard
+- Live QR Check-In Dashboard
+- Volunteer Hiring & Management
+- AI Sponsor Discovery
+- Budget Tracking & Analytics
+- Certificate Automation
+- Communication Hub
+- Real-Time Metrics
+
+---
+
+## 🏆 Volunteer Ecosystem
+Transforms volunteering into a career portfolio.
+
+### Features
+- Skill-Based Profiles
+- Achievement Badge System
+- Reputation Score
+- Leaderboards
+- Personal Task Kanban
+- Public Volunteer Portfolio
+- Certificate Wallet
+- Skill Endorsements
+
+---
+
+## 💼 Sponsor Marketplace
+AI-powered sponsorship intelligence system.
+
+### Features
+- AI Event Matching
+- ROI Tracking Dashboard
+- Sponsorship Marketplace
+- Smart Proposal Tracking
+- Package Builder
+- Industry-Based Discovery
+- Analytics Reports
+
+---
+
+## 🎫 Participant Experience
+Modern attendee-first event experience.
+
+### Features
+- Smart Registration System
+- QR Digital Tickets
+- Live Event Announcements
+- Networking Hub
+- Team Formation Board
+- Session Reminders
+- Instant Certificates
+
+---
+
+# ⚡ Unique Selling Points
+
+<div align="center">
+
+| 🚀 Feature | 💡 Description |
+|---|---|
+| Real-Time QR Check-In | Live attendee counter updates instantly |
+| Gemini AI Matching | AI-powered sponsor-event compatibility |
+| Automated Certificates | Zero-touch PDF generation system |
+| Volunteer Gamification | Reputation scores, badges & leaderboards |
+| Multi-Role Accounts | One account with multiple role switching |
+| WebSocket Sync | Real-time Kanban & announcements |
+| HMAC Security | Cryptographically signed QR tokens |
+| Production Architecture | Scalable modern SaaS infrastructure |
+
+</div>
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+```bash
+React 19
+TypeScript
+Vite 5
+Tailwind CSS 3
+Framer Motion
+React Router v6
+Lucide React
+```
+
+## Backend
+```bash
+Spring Boot
+JWT Authentication
+REST APIs
+Socket.io
+PostgreSQL
+```
+
+## AI & Automation
+```bash
+Gemini API
+Puppeteer
+QR Generation
+HMAC-SHA256
+```
+
+## Deployment
+```bash
+Vercel
+Netlify
+Nginx
+GitHub Actions
+```
+
+---
+
+# 👥 User Roles
+
+| Role | Route | Access |
+|---|---|---|
+| Organizer | `/dashboard/organizer` | Event operations & analytics |
+| Volunteer | `/dashboard/volunteer` | Tasks & achievements |
+| Sponsor | `/dashboard/sponsor` | ROI & AI sponsor matching |
+| Participant | `/dashboard/participant` | Registration & networking |
+
+---
+
+# 📂 Project Structure
+
+```bash
+src
+│
+├── components
+│   ├── common
+│   ├── landing
+│   ├── routes
+│   ├── Layout.tsx
+│   ├── OrganizerModule.tsx
+│   ├── VolunteerModule.tsx
+│   ├── SponsorModule.tsx
+│   └── ParticipantModule.tsx
+│
+├── context
+│   └── AuthContext.tsx
+│
+├── pages
+│   ├── Login.tsx
+│   └── RoleSelection.tsx
+│
+├── App.tsx
+├── main.tsx
+├── types.ts
+└── index.css
+```
+
+---
+
+# ⚙️ Getting Started
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/eventtech-platform.git
+cd eventtech-platform
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3️⃣ Configure Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_API_BASE_URL=http://localhost:3001
+VITE_APP_ENV=development
+```
+
+---
+
+## 4️⃣ Run Development Server
+
+```bash
+npm run dev
+```
+
+Frontend:
+
+```bash
+http://localhost:5173
+```
+
+Backend:
+
+```bash
+http://localhost:3001
+```
+
+---
+
+# 🏗 Production Build
+
+## Build Application
+
+```bash
+npm run build
+```
+
+---
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+---
+
+# 🚀 Deployment
+
+## Vercel / Netlify
+
+### Build Configuration
+
+```bash
+Build Command: npm run build
+Output Directory: dist
+```
+
+---
+
+## SPA Redirect Support
+
+Create:
+
+```bash
+public/_redirects
+```
+
+Add:
+
+```bash
+/* /index.html 200
+```
+
+---
+
+# 🌐 Nginx Configuration
+
+```nginx
+server {
+    listen 80;
+    root /var/www/eventtech-platform/dist;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location /api/ {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+    }
+}
+```
+
+---
+
+# 🔐 Security Features
+
+- JWT Authentication
+- Role-Based Access Control
+- HMAC-Signed QR Tokens
+- Secure API Protection
+- Anti-Duplicate Check-In Logic
+- Protected Certificate Verification
+- Secure Route Middleware
+
+---
+
+# 📡 Real-Time Features
+
+## Live QR Check-In
+Participant scans QR → Backend validates token → Organizer dashboard updates instantly.
+
+---
+
+## WebSocket Kanban Sync
+Task updates reflect live across all organizer & volunteer dashboards.
+
+---
+
+## Live Event Feed
+Announcements broadcast instantly to all attendees without refresh.
+
+---
+
+# 🤖 AI-Powered Features
+
+## Gemini Sponsor Matching
+AI analyzes:
+
+- Audience demographics
+- Industry fit
+- Budget compatibility
+- Event categories
+
+Returns:
+- Match Score
+- Compatibility Analysis
+- Sponsorship Suggestions
+
+---
+
+# 🏅 Automated Certificate Engine
+
+Organizer clicks:
+
+```bash
+Close Event
+```
+
+System automatically:
+
+✅ Generates PDFs  
+✅ Embeds QR Verification  
+✅ Sends Email Certificates  
+✅ Stores Wallet Access  
+
+Zero manual work required.
+
+---
+
+# 📊 Analytics Dashboard
+
+Track:
+
+- Registrations
+- Check-In Rates
+- Volunteer Performance
+- Sponsor ROI
+- Budget Breakdown
+- Event Funnel Analytics
+
+---
+
+# 🔑 Demo Accounts
+
+| Role | Email | Password |
+|---|---|---|
+| Organizer | organizer@eventtech.club | demo1234 |
+| Volunteer | volunteer@eventtech.club | demo1234 |
+| Sponsor | sponsor@sponsor.com | demo1234 |
+| Participant | participant@eventtech.club | demo1234 |
+
+---
+
+# 📈 Future Enhancements
+
+- Mobile Application
+- Payment Gateway Integration
+- AI Chat Assistant
+- Push Notifications
+- Event Recommendation Engine
+- Multi-Language Support
+- Advanced AI Analytics
+
+---
+
+# 🤝 Contributing
+
+```bash
+# Fork repository
+
+# Create feature branch
+git checkout -b feature-name
+
+# Commit changes
+git commit -m "Added feature"
+
+# Push branch
+git push origin feature-name
+
+# Open Pull Request
+```
+
+---
+
+# 📜 License
+
+Licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+<div align="center">
+
+## Mukunda Sai
+
+B.Tech CSE Student • Full Stack Developer • AI Enthusiast
+
+Building scalable AI-powered modern web applications.
+
+</div>
+
+---
+
+<div align="center">
+
+# ⭐ Final Vision
+
+### “The Future of College Event Management.”
+
+EventTech is not just another event platform.
+
+It is a complete intelligent ecosystem designed to modernize event operations using AI, automation, analytics, and real-time experiences.
+
+</div>
 
 ## 🎨 Creative Architecture Blueprint
 
